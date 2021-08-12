@@ -9,4 +9,6 @@ Project made with Express and Bootstrap.
 To start the project, clone this repository and make sure to have Node.js and NPM installed.
 Then go to root folder and input `npm install` and wait for dependencies to be installed.
 
+Then `npm start`.
+
 **Project is a work-in-progress.**
