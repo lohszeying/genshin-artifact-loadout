@@ -11,4 +11,6 @@ Then go to root folder and input `npm install` and wait for dependencies to be i
 
 Then `npm start`.
 
+Project requires postgresql.
+
 **Project is a work-in-progress.**
