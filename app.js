@@ -45,12 +45,6 @@ require('./routes').init(app);
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 
-// catch 401 and forward to error handler
-app.use(function (req, res, next) {
-    res.status(401).render('401');
-    next(createError(401));
-});
-
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     res.status(404).render('404');
